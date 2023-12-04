@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using TMPro;
+using System;
 
 namespace OpenAI
 {
@@ -16,6 +18,12 @@ namespace OpenAI
         [SerializeField] private Button recordButton;
         [SerializeField] private Image progressBar;
         [SerializeField] private Dropdown dropdown;
+
+        [SerializeField] private TMP_Dropdown modelDropdown;
+        [SerializeField] private TMP_Dropdown voiceDropdown;
+        [SerializeField] private Slider speedSlider;
+        [SerializeField] private TextMeshProUGUI speedLabel;
+        [SerializeField] private TTSManager ttsManager;
 
         private readonly string fileName = "output.wav";
         private readonly int duration = 10;
@@ -153,6 +161,7 @@ namespace OpenAI
 
                 messages.Add(message);
                 RemoveTemporaryMessage();
+                if (ttsManager) ttsManager.SynthesizeAndPlay(message.Content, (TTSModel)modelDropdown.value, (TTSVoice)voiceDropdown.value, speedSlider.value);
                 AppendMessage(message);
             }
             else
@@ -209,7 +218,7 @@ namespace OpenAI
             recordButton.onClick.RemoveListener(EndRecording);
             recordButton.onClick.AddListener(StartRecording);
             recordButton.GetComponentInChildren<Text>().text = "Start recording";
-           
+
             // recordButton.enabled = true;
         }
 
@@ -227,5 +236,9 @@ namespace OpenAI
             }
         }
 
+        public void UpdateSpeedLabel(Single value)
+        {
+            speedLabel.text = value.ToString("0.00");
+        }
     }
 }

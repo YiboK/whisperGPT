@@ -11,6 +11,11 @@ using System.Collections.Generic;
 using Newtonsoft.Json.Serialization;
 using System.Linq;
 
+using System.Reflection;
+using System.ComponentModel;
+using System.Net.Http;
+using System.Net.Http.Headers;
+
 namespace OpenAI
 {
     public class OpenAIApi
