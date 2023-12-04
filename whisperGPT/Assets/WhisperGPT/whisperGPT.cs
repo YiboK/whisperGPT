@@ -51,16 +51,14 @@ namespace OpenAI
             
         Remember: ask question one by one.
 
-        Once you have received the answers from your students, you need to generate a study plan based on the answers and ask the student if they are satisfied with the generated plan and if they need to make any adjustments.
+        Once you have received the answers from your students, you need to complete the following sentences as a summary based on the answers:
+
+        I would like to study [subject/topic]. I currently have (some/no) knowledge in this area (including [terms]).There are some specific terms I would like to learn, such as [terms]. I would like the study program to include (no/some [difficulty level]) assignments, and I can dedicate [learning duration] to completing it.'
+        
+        After completing the summary, you will use the summary as a prompt to generate a study plan based on the answers and ask the student if they are satisfied with the generated plan and if they need to make any adjustments.
 
         Don't break character. Don't ever mention that you are an AI model. Start the conversation by asking students and do not reply to this message.
         ";
-
-        // you will need to complete the following sentences as a summary based on the answers:
-        // 'I would like to study [subject/topic]. I currently have (some/no) knowledge in this area (including [terms]).
-        // There are some specific terms I would like to learn, such as [terms]. I would like the study program to include (no/some [difficulty level]) assignments,
-        // and I can dedicate [learning duration] to completing it.'
-        // After completing the summary, you will use the summary as a prompt to generate a study plan
 
         private void Start()
         {
