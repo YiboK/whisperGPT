@@ -6,7 +6,7 @@ using System;
 
 namespace OpenAI
 {
-    public class ChatGPT : MonoBehaviour
+    public class whisperGPT : MonoBehaviour
     {
         [SerializeField] private InputField inputField;
         [SerializeField] private Button button;

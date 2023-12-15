@@ -10,6 +10,7 @@ using UnityEngine.Networking;
 using System.Collections.Generic;
 using Newtonsoft.Json.Serialization;
 using System.Linq;
+using UnityEngine;
 
 using System.Reflection;
 using System.ComponentModel;
