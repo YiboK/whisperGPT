@@ -1,6 +1,6 @@
 # whisperGPT Repo for CS639: Capstone Fall2023
 
-The whisperGPT folder contains the program that implements a program that is able to talk to the user. It uses GPT-4, Whisper-1, and TTS-1 models from OpenAI API.
+The whisperGPT folder contains the program that implements a program that is able to talk to the user. It uses GPT-4, Whisper-1, and TTS-1 models from OpenAI API. The Unity version is 2022.3.10f1.
 
 The program in this folder is used for develop and test the whisperGPT foler, and will be integrated into the VR program [here](https://github.com/YiboK/Holos)
 
@@ -10,7 +10,8 @@ The program in this folder is used for develop and test the whisperGPT foler, an
 Photo of WhisperGPT UI: ![image](https://github.com/YiboK/whisperGPT/assets/94937314/f2fde9dc-87a4-4072-9248-dbdc5c795ada)
 
 
-In the VR program: ![image](https://github.com/YiboK/whisperGPT/assets/94937314/ab5a4536-f0ac-4d37-8da4-085bd5e35453)
+In the VR program: ![image](https://github.com/YiboK/whisperGPT/assets/94937314/31567423-7bea-4791-abef-4effe78a36b0)
+
 
 # Availability
 Since I changed something in packages, it is recommended to download the files at [here](https://drive.google.com/file/d/1a8Y-2t_d4rUViUQHDP_3YiNhpNKkHJrk/view?usp=sharing) rather than cloning the repo.
