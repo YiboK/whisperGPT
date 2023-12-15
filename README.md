@@ -5,7 +5,7 @@ The whisperGPT folder contains the program that implements a program that is abl
 The program in this folder is used for develop and test the whisperGPT foler, and will be integrated into the VR program [here](https://github.com/YiboK/Holos)
 
 ## Little Demo 
-Video: [https://drive.google.com/file/d/17VLDbQbgzMtXqnSV3pLMX1ZCaYyKFY12/view?usp=sharing](https://drive.google.com/file/d/1alb4bMD8qOr1Fw89V4AmEOXj5-dzuPtK/view?usp=drive_link)
+Video: [[https://drive.google.com/file/d/17VLDbQbgzMtXqnSV3pLMX1ZCaYyKFY12/view?usp=sharing](https://drive.google.com/file/d/1alb4bMD8qOr1Fw89V4AmEOXj5-dzuPtK/view?usp=drive_link)](https://drive.google.com/file/d/1TmFH24tqAkT4I1eGQh69J3QSAJs-fBQg/view?usp=sharing)
 ![image](https://github.com/YiboK/whisperGPT/assets/94937314/0bcde39b-4dd0-45d0-947f-15282aa57da0)
 
 
