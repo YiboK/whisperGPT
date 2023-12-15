@@ -7,6 +7,8 @@ The program in this folder is used for develop and test the whisperGPT foler, an
 ## Little Demo 
 [Video demo](https://drive.google.com/file/d/1TmFH24tqAkT4I1eGQh69J3QSAJs-fBQg/view?usp=sharing)
 
+Photo of WhisperGPT UI: ![image](https://github.com/YiboK/whisperGPT/assets/94937314/f2fde9dc-87a4-4072-9248-dbdc5c795ada)
+
 
 In the VR program: ![image](https://github.com/YiboK/whisperGPT/assets/94937314/ab5a4536-f0ac-4d37-8da4-085bd5e35453)
 
