@@ -22,9 +22,7 @@ public class OpenAIWrapper : MonoBehaviour
 
     public async Task<byte[]> RequestTextToSpeech(string text)
     {
-        Debug.Log("Sending new request to OpenAI TTS.");
-        
-
+      
         var userPath = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
         var authPath = $"{userPath}/.openai/auth.json";
             
@@ -33,7 +31,6 @@ public class OpenAIWrapper : MonoBehaviour
         {
             var json = File.ReadAllText(authPath);
             JObject key = JObject.Parse(json);
-            Debug.Log(key["api_key"]);
             openAIKey = key["api_key"].ToString();;
         }
         else
