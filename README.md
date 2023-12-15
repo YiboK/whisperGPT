@@ -1,8 +1,8 @@
 # whisperGPT Repo for CS639: Capstone Fall2023
 
-The whisperGPT folder contains the program that implements a program that is able to talk to the user. It uses GPT-4 and Whisper-1 model in OpenAI API.
+The whisperGPT folder contains the program that implements a program that is able to talk to the user. It uses GPT-4, Whisper-1, and TTS-1 models from OpenAI API.
 
-The program in this folder is used for develop and test the whisperGPT foler, and will be integrated into the VR program.
+The program in this folder is used for develop and test the whisperGPT foler, and will be integrated into the VR program [hear](https://github.com/YiboK/Holos)
 
 ## Little Demo 
 Video: [https://drive.google.com/file/d/17VLDbQbgzMtXqnSV3pLMX1ZCaYyKFY12/view?usp=sharing](https://drive.google.com/file/d/1alb4bMD8qOr1Fw89V4AmEOXj5-dzuPtK/view?usp=drive_link)
