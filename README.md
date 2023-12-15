@@ -11,4 +11,5 @@ Video: [https://drive.google.com/file/d/17VLDbQbgzMtXqnSV3pLMX1ZCaYyKFY12/view?u
 
 In the VR program: ![image](https://github.com/YiboK/whisperGPT/assets/94937314/ab5a4536-f0ac-4d37-8da4-085bd5e35453)
 
-
+# Availability
+Since I changed something in packages, it is recommended to download the files at [here](https://drive.google.com/file/d/1a8Y-2t_d4rUViUQHDP_3YiNhpNKkHJrk/view?usp=sharing) rather than cloning the repo.
