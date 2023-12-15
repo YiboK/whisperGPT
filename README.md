@@ -1,4 +1,4 @@
-# whisperGPT Repo for CS639: Capstone Fall2023
+# WhisperGPT Repo for CS639: Capstone Fall2023
 
 The whisperGPT folder contains the program that implements a program that is able to talk to the user. It uses GPT-4, Whisper-1, and TTS-1 models from OpenAI API. The Unity version is 2022.3.10f1.
 
