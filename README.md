@@ -33,16 +33,10 @@ To do this, follow these steps:
 
 ```json
 {
-    "api_key": "sk-...W6yi",
-    "organization": "org-...L7W"
+    "api_key": "sk-...W6yi"
 }
 ```
 
-You can also pass your API key into `OpenAIApi` ctor when creating an instance of it but again, this is not recommended!
-
-```csharp
-var openai = new OpenAIApi("sk-Me8...6yi");
-```
 
 **IMPORTANT:** Your API key is a secret. 
 Do not share it with others or expose it in any client-side code (e.g. browsers, apps). 
