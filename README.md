@@ -14,7 +14,17 @@ In the VR program: ![image](https://github.com/YiboK/whisperGPT/assets/94937314/
 
 
 # Availability
-Since the OpenAI is constantly updating their API, I changed something in the package (The lastest update: 12/15/2023). Therefore, it is recommended to download the files at [here](https://drive.google.com/file/d/1a8Y-2t_d4rUViUQHDP_3YiNhpNKkHJrk/view?usp=sharing) rather than cloning the repo.
+I used the [OpenAI-Unity](https://github.com/srcnalt/OpenAI-Unity) package to implement the functions. However, since the OpenAI is constantly updating their API, I changed something in the package for multiple times (The lastest update: 12/15/2023):
+
+In Packages/com.srcnalt.openai-unity/Runtime/DataTypes.cs, I added the following parameter to "public struct CreateChatCompletionResponse : IResponse"
+```
+public string system_fingerprint { get; set; }
+```
+And I added the following parameter to "public struct ChatChoice" 
+```
+public bool logprobs { get; set; }
+```
+Also, the package didn't provide TTS model. Therefore, it is recommended to download the files at [here](https://drive.google.com/file/d/1a8Y-2t_d4rUViUQHDP_3YiNhpNKkHJrk/view?usp=sharing) rather than cloning the repo.
 
 ### Setting Up Your OpenAI Account
 To use the OpenAI API, you need to have an OpenAI account. Follow these steps to create an account and generate an API key:
